@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lotto numbers generator</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+        <script src="lottoNumbers.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <h1>Lotto numbers generator</h1>
+        <br/>
+        <div>
+            <form>
+                How many numbers you want to generate?
+                <input type="number" id="kamaGenerate">
+                <br/>
+                What is the range of number?<em>Write only the maximum number</em>
+                <input type="number" id="range">
+            </form>
+            <br/><br/>
+            <button type="button" 
+                    id="generate">
+                Click here to generate lotto Numbers
+            </button>
+      <p id="result"></p>
+        </div>
+
+    </body>
+
+</html>
